@@ -1,0 +1,382 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* font balancing for entire web page
+html { font-size: 90.5%; }
+body { font-size: 1.4rem;}
+h1 { font-size: 2.4rem; }
+*/
+
+.divider {
+  margin-top: 1.5rem !important;
+  margin-bottom: 2.5rem !important;
+  border-color:black;
+  opacity:1;
+  max-width:60%;
+  border-top: dashed 1px;
+}
+
+.bg-black {
+  background-color: #000000 !important;
+}
+
+.padTop {
+	padding-top:50px;
+}
+
+.padTop2 {
+	padding-top:50px;
+}
+
+.padTop3 {
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+
+.padBot {
+	margin-bottom: 50px;
+}
+
+/* for mobile alignment for portfolio grids */
+.padBot2 {
+  margin-bottom: 15px;
+}
+
+.sectionHeader {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size:20px;
+	letter-spacing:3px;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 45px;
+}
+
+.hero {
+	background: url("../images/sf2.jpg");
+	opacity: 0.95;
+	background-repeat:no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position:relative;
+
+	/*adds parallax*/
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color: #fff;
+  font-size:5vmax;
+}
+
+.hero-name {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 10px;
+	margin:0;
+}
+
+.hero-sub {
+  font-size:22px;
+	font-family: 'Nunito Sans', sans-serif;
+	letter-spacing: 3px;
+	font-style: italic;
+	font-weight:200;
+}
+
+.infoText {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+
+.resPort {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.animatedName {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+}
+
+
+@keyframes fadeInUpName {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 150%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUpName {
+  animation-name: fadeInUpName;
+}
+
+.animatedSub {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 2.5s;
+}
+
+.animatedSub2 {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 4s;
+}
+
+
+@keyframes fadeInUpSub {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 400%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUpSub {
+  animation-name: fadeInUpSub;
+}
+
+
+.btn {
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 2px solid transparent;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+
+  line-height: 1.25;
+  border-radius: 0rem;
+  transition: all 0.25s ease-in-out;
+
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight:600;
+}
+
+.btn-primary {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #fff;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 1);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:active, .btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #000;
+  background-image: none;
+  border-color: #000;
+}
+
+.bgPattern {
+	background-color: #fff;
+}
+
+.bgBlack {
+	background-color: #000;
+}
+
+.container-fluid2 {
+  overflow:auto;
+}
+
+.portfolioRow {
+	margin-left:50px;
+	margin-right:50px;
+	text-align: center;
+}
+
+.bottomCloser {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 12px;
+	color:white;
+}
+
+.closer {
+	padding-bottom: :50px;
+}
+
+.oilgo {
+	background-image:url("../images/oilgo2.png");
+}
+
+.websitePortfolio {
+	background-image:url('../images/PGorangeTEAL.png');
+}
+
+.parkingAtUCSD {
+	background-image:url('../images/PGorangenobg.png');
+}
+
+.progchamp {
+	background-image:url('../images/philanthrobot.png');
+}
+
+.philanthro {
+	background-image:url('../images/progchampss2.png');
+}
+
+.lastItem {
+	background-image:url('../images/PGorange.png');
+}
+
+.linkedin {
+	background-image:url('../images/sqINicon.png');
+}
+
+.email {
+	background-image:url('../images/emailIcon.png');
+}
+
+.github {
+	background-image:url('../images/sqGHicon.png');
+}
+
+.square {
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	padding-bottom: 90%;
+	background-size:cover;
+	transition: all .1s ease-out;
+	display:block;
+	position: relative;
+}
+
+.square2 {
+	margin-left:auto;
+	margin-right:auto;
+	width:75%;
+	padding-bottom: 75%;
+	background-size:cover;
+	transition: all .1s ease-out;
+	display:block;
+	position: relative;
+}
+
+.fade {
+    opacity:1;
+}
+
+.fade:hover .portText {
+    opacity:1;   
+    visibility: visible;
+}
+
+.grow:hover
+{
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/* another way to fade in but no text?
+.square:after, .square:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.square:after {
+    content:'\A';
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(239,239,239,0.1);
+}
+
+.square:hover:after, .square:hover:before {
+    opacity:1;
+}
+*/
+
+/* UNCOMMENT THIS IF YOU WANT FADE INTO TEXT ON HOVER 
+.portText {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  background: rgba(239,239,239,0.9);
+  text-align: center;
+  width:100%;
+  padding-bottom: 100%;
+
+  color: #000;
+  visibility: hidden;
+}
+
+.portInfo {
+	padding-top:35%;
+	font-size:3vmin;
+	font-weight: 400;	
+}
+
+.portInfo2 {
+	font-size:2vmin;
+	font-weight: 400;
+}
+
+*/
+
+
+/* hover change image effect 
+#Library {
+   background-image: url('/images/reverseGH.png');
+   height: 70px;
+   width: 120px;
+}
+
+#Library:hover {
+	width:50%;
+	padding-bottom: 50%;
+   background-image: url('/images/sqGHicon.png');
+}
+*/
+
+/* Debug Ghost CSS Elements Causing Unwanted Scrolling *
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+*/
