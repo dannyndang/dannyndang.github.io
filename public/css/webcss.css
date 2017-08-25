@@ -13,7 +13,7 @@ body, html{
   font-size:50px;
   padding-top: 50px;
   padding-bottom: 25px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 .title a {
@@ -65,7 +65,7 @@ body, html{
 .bgGrey2 {
   padding-top:80px;
   background-color: #f9f9f9;
-  height: 79vh;
+  height: 100vh;
   overflow:hidden;
 }
 
@@ -166,9 +166,38 @@ p b {
   color: #9696fe;
 }
 
+.email:hover {
+  color: #9696fe;
+}
 
+.fa {
+  font-size: 18px;
+  color:#9696fe;
+}
 
+.fa:hover {
+  color:#9696fe;
+}
 
+.linkText a {
+  font-size:18px;
+  color: #000;
+  text-decoration: none;
+}
 
+.linkText a:hover {
+  color: #9696fe;
+  text-decoration: none;
+}
 
+.contactFont {
+  font-size:18px;
+}
 
+.contactFont2 {
+  font-size:16px;
+}
+
+.linkSpan {
+  white-space: nowrap;
+}
