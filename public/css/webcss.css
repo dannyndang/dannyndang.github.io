@@ -130,6 +130,15 @@ a.readMore {
     width:100%;
     height:100%;
   }
+
+  .pages {
+    font-family: 'Sanchez', sans-serif;
+    word-spacing: .1em;
+    font-size:20px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
     
 }
 
