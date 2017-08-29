@@ -79,10 +79,47 @@ body {
 }
 
 .aboutPadding {
-  padding-top:80px;
-  padding-bottom: 80px;
-
+  padding-top:60px;
+  padding-bottom: 60px;
 }
+
+.portPadding {
+  padding-top:60px;
+  padding-bottom: 60px;
+}
+
+.portText {
+  font-family: 'Nunito Sans', sans-serif;
+  padding-left: 30px;
+}
+
+p.details b{
+  color: #000;
+  font-weight: 600;
+}
+
+.details a {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000;
+}
+
+.details a:hover {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #9696fe;
+}
+
+.detailsT a {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000;
+  opacity:0.75;
+}
+
+.detailsT a:hover {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #9696fe;
+  opacity:1;
+}
+
 
 .bgWhite {
   background-color: #fff;
@@ -124,6 +161,12 @@ a.readMore {
   height:90%;
 }
 
+.sqFix2 {
+  width:25%;
+  height:25%;
+  margin:10px;
+}
+
 @media only screen and (max-width:768px) {
 
   .sqFix {
@@ -137,8 +180,7 @@ a.readMore {
     font-size:20px;
     padding-bottom: 50px;
     letter-spacing: 2px;
-}
-
+  }
     
 }
 
@@ -190,7 +232,9 @@ p b {
   color: #9696fe;
 }
 
-.email:hover {
+
+
+.urlLink:hover {
   color: #9696fe;
 }
 
@@ -226,9 +270,19 @@ p b {
   white-space: nowrap;
 }
 
+.portSub {
+  font-family: 'Nunito Sans', sans-serif;
+  margin-left: 30px;
+}
+
+
+
+
 /* Debug Ghost CSS Elements Causing Unwanted Scrolling *
-* /{
+* {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
 }
+*/
+
