@@ -225,3 +225,10 @@ p b {
 .linkSpan {
   white-space: nowrap;
 }
+
+/* Debug Ghost CSS Elements Causing Unwanted Scrolling *
+* /{
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
