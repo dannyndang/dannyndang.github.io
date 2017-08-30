@@ -286,3 +286,14 @@ p b {
 }
 */
 
+
+
+.invisible {
+  
+  opacity: 1.0;
+}
+
+.visible {
+  
+  opacity: 1.0;
+}
