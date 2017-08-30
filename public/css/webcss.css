@@ -22,20 +22,9 @@ body {
   font-family: 'Sanchez', sans-serif;
   font-weight:400;
   font-size:50px;
-  padding-top: 50px;
+  padding-top: 25px;
   padding-bottom: 25px;
   letter-spacing: 3px;
-}
-
-.title a {
-  color: #000;
-  text-decoration: none;
-}
-
-.title a:hover {
-  color: #9696fe;
-  opacity:1;
-  text-decoration: none;
 }
 
 .pages {
@@ -69,6 +58,10 @@ body {
   padding-bottom: 0px;
 } 
 
+.bgW {
+  background-color: white;
+}
+
 .bgGrey {
   background-color: #f9f9f9;
 }
@@ -84,8 +77,13 @@ body {
 }
 
 .portPadding {
-  padding-top:60px;
+  padding-top:40px;
   padding-bottom: 60px;
+}
+
+.bttPadding {
+  padding-top:40px;
+  padding-bottom: 20px;
 }
 
 .portText {
@@ -197,21 +195,7 @@ a.readMore {
 .animatedText {
   animation-duration: 2s;
   animation-fill-mode: both;
-  animation-delay: 1s;
-}
-
-/* Second pic */
-.animatedPic2 {
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-  animation-delay: 2s;
-}
-
-/* Second Text */
-.animatedText2 {
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-  animation-delay: 2.5s;
+  animation-delay: .5s;
 }
 
 .fadeInPic {
@@ -286,14 +270,18 @@ p b {
 }
 */
 
-
-
-.invisible {
-  
-  opacity: 1.0;
+/** Vertical line down middle for debugging - add to background/body/html *
+{
+  height:100%;
+  width:100%;
+  z-index:55;
+    position:absolute;
+    background: linear-gradient(to right, 
+                                transparent 0%, 
+                                transparent calc(50% - 0.81px), 
+                                black calc(50% - 0.8px), 
+                                black calc(50% + 0.8px), 
+                                transparent calc(50% + 0.81px), 
+                                transparent 100%); 
 }
-
-.visible {
-  
-  opacity: 1.0;
-}
+*/
