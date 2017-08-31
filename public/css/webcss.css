@@ -230,13 +230,24 @@ a.readMore {
   }
 
   .title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight:400;
-  font-size:45px;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size:40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+  }
+
+  .subtitle {
+    font-family: 'Hind', sans-serif;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size:18px;
+    letter-spacing: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
+
     
 }
 
