@@ -19,20 +19,52 @@ body {
 }
 
 .title {
-  font-family: 'Sanchez', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight:400;
   font-size:50px;
   padding-top: 50px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   letter-spacing: 3px;
 }
 
+.subtitle {
+  font-family: 'Hind', sans-serif;
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size:18px;
+  letter-spacing: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.subtitle1 {
+  font-family: 'Hind', sans-serif;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size:18px;
+  letter-spacing: 2px;
+  color:#9696fe;
+}
+
+
+.subtitle2 {
+  font-family: 'Hind', sans-serif;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size:18px;
+  letter-spacing: 2px;
+  color:#9696fe;
+}
+
+
+
 .pages {
-    font-family: 'Sanchez', sans-serif;
+    font-family: 'Hind', sans-serif;
     word-spacing: .25em;
     font-size:20px;
     padding-bottom: 50px;
     letter-spacing: 2px;
+    font-weight: 500;
 }
 
 .pages a {
@@ -87,7 +119,7 @@ body {
 }
 
 .portText {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Hind', sans-serif;
   padding-left: 30px;
 }
 
@@ -97,23 +129,23 @@ p.details b{
 }
 
 .details a {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Hind', sans-serif;
   color: #000;
 }
 
 .details a:hover {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Hind', sans-serif;
   color: #9696fe;
 }
 
 .detailsT a {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Hind', sans-serif;
   color: #000;
   opacity:0.75;
 }
 
 .detailsT a:hover {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Hind', sans-serif;
   color: #9696fe;
   opacity:1;
 }
@@ -124,23 +156,34 @@ p.details b{
 }
 
 .infoHead {
-  font-family: 'Sanchez', serif;
+  font-family: 'Montserrat', serif;
   letter-spacing: 2px;
 }
 
 .infoSub {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Hind', sans-serif;
   padding-bottom: 15px;
+  letter-spacing: 1px;
 }
 
 .infoDesc {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Hind', sans-serif;
+}
+
+.infoDesc2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:22px;
+}
+
+.infoDesc b {
+  font-weight:600;
+  color: #9696fe;
 }
 
 .readMore{ 
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Hind', sans-serif;
   color:#9696fe;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 a.readMore {
@@ -173,7 +216,7 @@ a.readMore {
   }
 
   .pages {
-    font-family: 'Sanchez', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     word-spacing: .1em;
     font-size:20px;
     padding-bottom: 50px;
@@ -212,12 +255,6 @@ a.readMore {
   }
 }
 
-p b {
-  color: #9696fe;
-}
-
-
-
 .urlLink:hover {
   color: #9696fe;
 }
@@ -232,6 +269,7 @@ p b {
 }
 
 .linkText a {
+  font-weight: 400;
   font-size:18px;
   color: #000;
   text-decoration: none;
@@ -255,7 +293,7 @@ p b {
 }
 
 .portSub {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Hind', sans-serif;
   margin-left: 30px;
 }
 
