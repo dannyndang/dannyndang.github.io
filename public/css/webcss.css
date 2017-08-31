@@ -40,23 +40,11 @@ body {
 .subtitle1 {
   font-family: 'Hind', sans-serif;
   padding-bottom: 10px;
-  font-weight: 400;
+  font-weight: 500;
   font-size:18px;
   letter-spacing: 2px;
   color:#9696fe;
 }
-
-
-.subtitle2 {
-  font-family: 'Hind', sans-serif;
-  padding-bottom: 10px;
-  font-weight: 400;
-  font-size:18px;
-  letter-spacing: 2px;
-  color:#9696fe;
-}
-
-
 
 .pages {
     font-family: 'Hind', sans-serif;
@@ -118,10 +106,22 @@ body {
   padding-bottom: 20px;
 }
 
+.portAlign {
+  padding-left:px;
+}
+
+.portAlign2 {
+  padding-left:px;
+}
+
 .portText {
   font-family: 'Hind', sans-serif;
-  padding-left: 30px;
 }
+
+.portSub {
+  font-family: 'Hind', sans-serif;
+}
+
 
 p.details b{
   color: #000;
@@ -162,7 +162,13 @@ p.details b{
 
 .infoSub {
   font-family: 'Hind', sans-serif;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.infoSub2 {
+  font-family: 'Hind', sans-serif;
+  padding-bottom: 5px;
   letter-spacing: 1px;
 }
 
@@ -218,10 +224,19 @@ a.readMore {
   .pages {
     font-family: 'Montserrat', sans-serif;
     word-spacing: .1em;
-    font-size:20px;
+    font-size:18px;
     padding-bottom: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
+
+  .title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  font-size:45px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
     
 }
 
@@ -292,10 +307,7 @@ a.readMore {
   white-space: nowrap;
 }
 
-.portSub {
-  font-family: 'Hind', sans-serif;
-  margin-left: 30px;
-}
+
 
 
 
