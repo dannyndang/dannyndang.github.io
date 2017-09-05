@@ -317,6 +317,17 @@ a.readMore {
   font-size:16px;
 }
 
+.contactFont3 {
+  font-size:16px;
+  color:#000;
+}
+
+.contactFont3:hover {
+  font-size:16px;
+  color:#9696fe;
+}
+
+
 .linkSpan {
   white-space: nowrap;
 }
