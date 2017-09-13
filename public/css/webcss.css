@@ -118,6 +118,10 @@ body {
   font-family: 'Hind', sans-serif;
 }
 
+.indent {
+  text-indent: 50px;
+}
+
 .portSub {
   font-family: 'Hind', sans-serif;
 }
@@ -218,11 +222,50 @@ a.readMore {
   margin:10px;
 }
 
+.sqFixOilGo {
+  width:60%;
+  height:60%;
+  margin:10px;
+}
+
+.bannerFix {
+  width:50%;
+  height:50%; 
+  padding-bottom: 50px;
+}
+
+.bannerFixO {
+  width:50%;
+  height:50%; 
+  padding-bottom: 15px;
+}
+
+.bannerFixfb {
+  width:100%;
+  height:100%; 
+  padding-bottom: 35px;
+}
+
+.bannerFixM {
+  width:33%;
+  height:33%; 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 35px;
+}
+
+
 @media only screen and (max-width:768px) {
 
   .sqFix {
     width:100%;
     height:100%;
+  }
+
+  .sqFixOilGo {
+    width:75%;
+    height:75%;
+    margin:10px;
   }
 
   .pages {
@@ -251,7 +294,25 @@ a.readMore {
     padding-right: 10px;
     padding-left: 10px;
   }
+
+  
     
+}
+
+@media only screen and (max-width:1024px) {
+  
+  .bannerFix {
+    width:100%;
+    height:100%; 
+    padding-bottom: 50px;
+  }
+
+  .bannerFixO {
+    width:95%;
+    height:95%; 
+    padding-bottom: 15px;
+  }
+
 }
 
 /* Fade/Animations */
@@ -360,3 +421,5 @@ a.readMore {
                                 transparent 100%); 
 }
 */
+
+
