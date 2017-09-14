@@ -223,8 +223,13 @@ a.readMore {
 }
 
 .sqFixBot {
-  width:125%;
-  height:125%;
+  width:135%;
+  height:135%;
+}
+
+.sqFixFol {
+  width:135%;
+  height:135%;
 }
 
 .sqFixOilGo {
@@ -333,6 +338,16 @@ a.readMore {
 }
 
 @media only screen and (max-width:1366px) {
+
+  .sqFixBot {
+    width:100%;
+    height:100%;
+  }
+
+
+}
+
+@media only screen and (max-width:1440px) {
 
   .sqFixBot {
     width:100%;
