@@ -162,6 +162,7 @@ p.details b{
 .infoHead {
   font-family: 'Montserrat', serif;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .infoSub {
@@ -245,8 +246,8 @@ a.readMore {
 }
 
 .bannerFix1 {
-  width:50%;
-  height:50%; 
+  width:49%;
+  height:49%; 
   padding-bottom: 50px;
 }
 
@@ -280,6 +281,16 @@ a.readMore {
   width:33%;
   height:33%; 
   padding-bottom: 40px;
+}
+
+@media only screen and (max-width:320px) {
+
+  .infoHead {
+    font-family: 'Montserrat', serif;
+    letter-spacing: 1px;
+
+  }
+
 }
 
 
@@ -336,8 +347,20 @@ a.readMore {
 @media only screen and (max-width:1024px) {
   
   .bannerFix {
-    width:100%;
-    height:100%; 
+    width:95%;
+    height:95%; 
+    padding-bottom: 50px;
+  }
+
+  .bannerFix1 {
+    width:97%;
+    height:97%; 
+    padding-bottom: 50px;
+  }
+
+  .bannerFix2 {
+    width:95%;
+    height:95%; 
     padding-bottom: 50px;
   }
 
