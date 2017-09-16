@@ -162,6 +162,12 @@ p.details b{
 .infoHead {
   font-family: 'Montserrat', serif;
   letter-spacing: 2px;
+  
+}
+
+.infoHeadC {
+  font-family: 'Montserrat', serif;
+  letter-spacing: 2px;
   text-align: center;
 }
 
