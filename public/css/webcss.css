@@ -225,6 +225,15 @@ a.readMore {
   opacity:1;
 }
 
+.aclu {
+  font-weight:600;
+  color: #9696fe;
+}
+
+.aclu:hover {
+  color: #000;
+}
+
 .padDown {
   padding-top: 175px;
 }
