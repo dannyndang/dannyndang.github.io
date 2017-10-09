@@ -16,6 +16,15 @@ body {
 .bottom {
   flex:1;
   background-color: #f9f9f9;
+  word-spacing: 1px;
+  font-size:104%;
+}
+
+.bottom2 {
+  flex:1;
+  background-color: #f9f9f9;
+  word-spacing: 1px;
+  font-size:102%;
 }
 
 .title {
@@ -85,6 +94,7 @@ body {
 .workItems {
   padding-top:80px;
   padding-bottom:80px;
+  word-spacing: 1px;
 }
 
 .workItems h1 {
@@ -106,7 +116,7 @@ body {
 
 .aboutPadding {
   padding-top:60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .portPadding {
@@ -115,8 +125,13 @@ body {
 }
 
 .bttPadding {
-  padding-top:40px;
-  padding-bottom: 30px;
+  padding-top:45px;
+  padding-bottom: 35px;
+}
+
+.backtoTop {
+  padding-top: 40px;
+  padding-bottom: 15px;
 }
 
 .portAlign {
@@ -166,6 +181,8 @@ p.details b{
   color: #9696fe;
   opacity:1;
 }
+
+
 
 
 .bgWhite {
@@ -506,9 +523,44 @@ a.readMore {
   color:#9696fe;
 }
 
-
 .linkSpan {
   white-space: nowrap;
+}
+
+
+
+/** Footer CSS **/
+
+.footText {
+  font-family: 'Hind', sans-serif;
+  color: #000;
+  opacity:0.75;
+}
+
+
+.footerFont {
+  font-size:18px;
+}
+
+.footerFont2 {
+  font-size:16px;
+}
+
+.footerFont:hover {
+  font-size:18px;
+  color:#d3d3d3;
+  opacity:;
+}
+
+.footerFont2:hover {
+  font-size:16px;
+  color:#d3d3d3;
+  opacity:;
+}
+
+.sidePadding {
+  margin-left: 10px;
+  margin-right:10px;
 }
 
 
