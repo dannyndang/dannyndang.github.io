@@ -16,14 +16,12 @@ body {
 .bottom {
   flex:1;
   background-color: #f9f9f9;
-  word-spacing: 1px;
-  font-size:104%;
+  font-size:103%;
 }
 
 .bottom2 {
   flex:1;
   background-color: #f9f9f9;
-  word-spacing: 1px;
   font-size:102%;
 }
 
@@ -69,12 +67,12 @@ body {
 }
 
 .pages {
-    font-family: 'Hind', sans-serif;
-    word-spacing: .25em;
-    font-size:20px;
-    padding-bottom: 50px;
-    letter-spacing: 2px;
-    font-weight: 500;
+  font-family: 'Hind', sans-serif;
+  word-spacing: .25em;
+  font-size:20px;
+  padding-bottom: 50px;
+  letter-spacing: 2px;
+  font-weight: 500;
 }
 
 .pages a {
@@ -94,7 +92,6 @@ body {
 .workItems {
   padding-top:80px;
   padding-bottom:80px;
-  word-spacing: 1px;
 }
 
 .workItems h1 {
@@ -572,6 +569,7 @@ a.readMore {
   padding-top: 25px;
   height: 0;
 }
+
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -580,6 +578,32 @@ a.readMore {
   height: 100%;
 }
 
+
+/** Back to top **/
+.back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+}
+
+ 
+.back-to-top i {
+  font-size: 35px;
+  color:#9696fe;
+  opacity:.9;
+}
+
+.back-to-top i:hover {
+  font-size: 35px;
+  opacity: .5;
+}
 
 
 
